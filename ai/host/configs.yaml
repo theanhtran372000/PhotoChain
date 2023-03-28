@@ -1,0 +1,26 @@
+# Beneficiary
+caller_address: "0x28E1FB4092f626F65ceaFF02bf120856f7232e9a"
+private_key: "2e50a1c32e92633752ef4d734abcf475062733e8bbb3b7f936959039417e2316"
+
+# Node provider
+node_url: https://goerli.infura.io/v3/a25eb1e4e3a14e84af96ed88d1d4310e
+
+# Executor contract
+license_address: "0x0ABDe1485A08De10C22D26f85a96cc64FBE4ba5b"
+license_abi: host/saved/Licenses.json
+executor_address: "0x245A09244882913A8fB67967A44AD6B88Cc369D2"
+executor_abi: host/saved/Executor.json
+
+# IPFS
+ipfs_subdomain: https://photo-chain.infura-ipfs.io
+ipfs_api_interface: https://ipfs.infura.io:5001/api/v0
+
+# Local config
+similar_threshold: 0.1
+storage: "host/storage"
+domain: "http://127.0.0.1"
+open_api: find_similar
+
+# Gas config
+max_priority_gas: 2 # GWEI
+max_gas: 20 # GWEI
